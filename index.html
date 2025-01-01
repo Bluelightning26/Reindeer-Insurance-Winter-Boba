@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Legit Reindeer Insurance</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+    <h1>Grandma got run over by a reindeer... Don't let that be you</h1>
+
+    <div class="title">
+        <center><h1>Get Insured Today!</h1></center>
+    </div>
+
+    <div class="insurance">
+        <p>
+            Our elves are working away to make sure you don't end up like grandma
+            and are safe and sound this holiday season!
+        </p>
+    </div>
+
+    <img src="/images/grandma.png" alt="Grandma run over by a reindeer...">
+
+    <p>Rates:
+    <ul>
+        <li>For glasses to see (grandma couldn't): $1225</li>
+        <button onclick="myFunction()">Select Option (Buy)</button>
+        <script>
+            function myFunction() {
+                alert("Easiest money we've ever made!");
+                grinch();
+            }
+        </script>
+
+        <li>For FBI agents looking out for you on your roof: $122,524</li>
+        <button onclick="myFunction1()">Select Option (Buy)</button>
+        <script>
+            function myFunction1() {
+                alert("erm... We'll send you an FBI agent in 10-12 business days!");
+                grinch();
+            }
+        </script>
+
+        <li>For a no fly zone for Santa: $1,000,000</li>
+        <button onclick="myFunction2()">Select Option (Buy)</button>
+        <script>
+            function myFunction2() {
+                alert("GRINCH! WHY... you will ruin Christmas for all the little boys and girls with a no fly zone. Us as an insurance would NOT like to be held liable for this. (We still got your money though HA)");
+                grinch();
+            }
+        </script>
+    </ul>
+    </p>
+
+    <div class="grinch">
+        <img id="grinchImage" src="/images/grinch.jpg" alt="Grinch..." style="opacity: 0.1;">
+    </div>
+
+    <script>
+        function grinch() {
+            var grinchImage = document.getElementById("grinchImage");
+            grinchImage.style.opacity = "1";
+        }
+    </script>
+
+
+
+    <footer>
+        <p>
+            © 2024 Legit insurance Corporation. All Rights Not Reserved. /j
+        </p>
+    </footer>
+    </body>
+    </html>
+
